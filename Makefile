@@ -399,7 +399,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
                    -Werror-implicit-function-declaration \
                    -Wno-format-security -Wno-misleading-indentation \
                    -Wno-maybe-uninitialized -Wno-pointer-compare \
-                   -Wno-bool-operation
+                   -Wno-bool-operation -Wno-shift-overflow \
 		   -std=gnu89
 
 KBUILD_CPPFLAGS := -D__KERNEL__
