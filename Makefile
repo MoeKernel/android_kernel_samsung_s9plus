@@ -400,7 +400,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
                    -Wno-format-security -Wno-misleading-indentation \
                    -Wno-maybe-uninitialized -Wno-pointer-compare \
                    -Wno-bool-operation -Wno-shift-overflow \
-		   -Wno-switch-unreachable \
+		   -Wno-switch-unreachable -Wno-memset-elt-size \
 		   -std=gnu89
 
 KBUILD_CPPFLAGS := -D__KERNEL__
