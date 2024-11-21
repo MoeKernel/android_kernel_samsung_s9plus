@@ -401,6 +401,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
                    -Wno-maybe-uninitialized -Wno-pointer-compare \
                    -Wno-bool-operation -Wno-shift-overflow \
 		   -Wno-switch-unreachable -Wno-memset-elt-size \
+		   -Wno-duplicate-decl-specifier \
 		   -std=gnu89
 
 KBUILD_CPPFLAGS := -D__KERNEL__
